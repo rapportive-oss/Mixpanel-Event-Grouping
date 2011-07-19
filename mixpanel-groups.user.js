@@ -22,7 +22,7 @@ document.onkeypress = function (key) {
 
     // Iterate through all the event rows on the page and hide the ones that aren't
     // part of the currently-viewed group
-    var events = document.getElementsByClassName('event_row');
+    var events = document.getElementsByClassName('event_table_row');
     for (var i = 0; i < events.length; i++) {
         var event_name = events[i].getElementsByTagName('td')[1].innerText.toLowerCase();
         
